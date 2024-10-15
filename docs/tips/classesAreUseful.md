@@ -42,7 +42,7 @@ export function someMethod() {
 }
 ```
 
-A pesar de que no somos grandes fans de la herencia *encuentramos que dejar que la gente use clases los ayuda a organizar su código mejor*. El mismo desarrollador hubiese escrito lo siguiente intuitivamente:
+A pesar de que no somos grandes fans de la herencia *encontramos que dejar que la gente use clases los ayuda a organizar su código mejor*. El mismo desarrollador hubiese escrito lo siguiente intuitivamente:
 
 ```ts
 class Foo {
@@ -66,4 +66,4 @@ export = new Foo();
 
 Y no son solo desarrolladores, las herramientas de desarrollo que proveen buenas visualizaciones de clases son mucho mas comunes, y hay un patrón menos que su equipo deberá entender y mantener.
 
-> P.D.: No hay anda de malo, en nuestra opinión, con jerarquías *superficiales* de clases si posibilitan su reutilización y reducen la repetición.
+> P.D.: No hay nada de malo, en nuestra opinión, con jerarquías *superficiales* de clases si posibilitan su reutilización y reducen la repetición.
